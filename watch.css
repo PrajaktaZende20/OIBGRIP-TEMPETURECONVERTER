@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-image:linear-gradient(90deg, rgba(10,4,105,1) 0%, rgba(10,22,152,1) 16%, rgba(0,134,255,1) 100%);
+
+    width: 800px;
+    height: 500px;
+}
+
+
+.heading {
+    padding: 40px 0px;
+    font-size: 1rem;
+    color: white;
+    font: bold 52px Helvetica, Arial, Sans-Serif;
+    text-shadow: 1px 1px #fe4902,
+        2px 2px #fe4902,
+        3px 3px #fe4902;
+}
+
+.converter {
+    width: 450px;
+    background-color: rgb(180, 118, 189);
+    padding: 70px 40px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cs {
+    width: 45%;
+
+}
+
+.fh {
+    width: 45%;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+    box-shadow: 0 0 10PX white;
+}
+
+input:focus {
+    border-color: rgba(221, 10, 151, 0.76);
+}
